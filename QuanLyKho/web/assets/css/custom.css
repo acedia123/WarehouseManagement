@@ -1,0 +1,81 @@
+:root{
+    --primary-color: #4d0a91;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: sans-serif;
+}
+
+input[type="search"]{
+    border-color: #D7CBCB;
+}
+
+.link--active{
+    background-color: #ccc;
+}
+
+.table-icon-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.table-icon-btn:hover{
+    background: #d5d5d5;
+}
+
+.page-link--active{
+    color: white !important;
+    background-color: var(--primary-color) !important;
+}
+
+.circle-status{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.fs-16{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #4D646F;
+}
+
+.normal-text-title{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: #4D646F;
+}
+
+.normal-text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.card-bg{
+    border: 1px solid #D7CBCB;
+    background-color: transparent;
+    color: #000;
+}
+
+.tab-card{
+    background: #E6EFEF;
+    border-radius: 8px;
+}
